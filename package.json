@@ -1,0 +1,22 @@
+{
+  "name": "mycms",
+  "version": "1.0.0",
+  "description": "A simple test cms created by Shine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shine Sudarsanan",
+  "license": "MIT",
+  "keywords": [
+    "cms",
+    "mongodb",
+    "nodejs"
+  ],
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "connect-multiparty": "^2.0.0",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4"
+  }
+}
