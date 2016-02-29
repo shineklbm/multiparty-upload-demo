@@ -17,9 +17,9 @@ app.get('/', function(req, res){
 });
 
 app.post('/', multipartMiddleware, function(req, res){
-	var x = 10;
+	var x = 10; // this is just a demo condition, you need to apply your business logic here
 	var extension = req.files.profile_picture.originalFilename.split(".").pop();
-	var filename = Math.random().toString(36).substr(2, 5);
+	var filename = Math.random().toString(36).substr(2, 5); //please update this with date and time also, just using as a demo
 	if(x === 10){
 		var tmp_path	= req.files.profile_picture.path,
 			target_path = "uploads/"+filename+"."+extension;
